@@ -2,7 +2,7 @@
   "name": "gardenplanner",
   "version": "1.0.0",
   "proxy": "http://localhost:6500",
-  "description": "",
+  "description": "Group Project 3",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -17,7 +17,6 @@
     "concurrently": "^5.3.0"
   },
   "dependencies": {
-   
     "@chakra-ui/react": "^2.8.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
