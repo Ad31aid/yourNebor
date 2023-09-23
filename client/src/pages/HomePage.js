@@ -1,5 +1,5 @@
 import '../styles/global.css'
-import Background from '../images/background-img.jpg'
+import Background from '../images/background-img.png'
 import { Button } from "@chakra-ui/react";
 
 const HomePage = () => {
@@ -20,8 +20,8 @@ const HomePage = () => {
     <div className="home-container">
       <div className="home-header">
         <h1 className="header-text" style={{ position: "fixed" }}>
-          Planting success <br/>
-          in the land of 10,000 lakes
+          Connecting communties  <br/>
+          ithrough mutual needs and wants
           </h1>
       </div>
       <div className="img-container">
@@ -33,13 +33,13 @@ const HomePage = () => {
             className='homeButton'
             colorScheme="orange"
             onClick={() => {
-              window.open("https://arb.umn.edu/", "_blank");
+              window.open("https://www.johnsoncountyiowa.gov/service-directory/food-nutrition/food-pantries", "_blank");
             }}
             style={buttonStyles}
             size="lg"
           >
             Click for Resources <br />
-            from the Minnesota Arboretum!
+            to local food pantries!
           </Button>
         </div>
       </div>

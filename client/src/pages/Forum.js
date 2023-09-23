@@ -177,15 +177,15 @@ export default function Forum () {
           <Modal isOpen={isForumOpen} onClose={onForumClose}>
             <ModalOverlay />
             <ModalContent>
-              <ModalHeader>New Florum Post</ModalHeader>
+              <ModalHeader>New Community Post</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 <FormControl>
-                  <FormLabel>Florum Post Title:</FormLabel>
+                  <FormLabel> Post Title:</FormLabel>
                   <Input type='text' value={form.title} key={form.title} onChange={handleInputChange} name="forumTitle"/>
                 </FormControl>
                 <FormControl>
-                <Text mb='8px'>Florum Post Content:</Text>
+                <Text mb='8px'>Post Content:</Text>
                 <Textarea
                   value={form.content}
                   onChange={handleInputChange}
@@ -208,8 +208,8 @@ export default function Forum () {
           
         </GridItem>
         <GridItem className="allpostgrid" colSpan={4}>
-          <h2>The Florum</h2>
-          <h6>See other gardener's tips and tricks, or ask a question!</h6>
+          <h2>Notice Board</h2>
+          <h6>See what your commmunity members are talking about, or ask a question!</h6>
           <Accordion allowToggle>
           {results.map((data, index) => (
             <AccordionItem key={index}>
@@ -244,7 +244,7 @@ export default function Forum () {
                 <Modal isOpen={isReplyOpen} onClose={onReplyClose}>
                   <ModalOverlay />
                   <ModalContent>
-                    <ModalHeader>Reply to Forum Post</ModalHeader>
+                    <ModalHeader>Reply to Post</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>
                     <FormControl>

@@ -88,16 +88,17 @@ export default function PlantSearch ({search}) {
                 </Box>
                 <Box>
                   <UnorderedList>
-                    <ListItem><span key= {plant.type} style={bold}>Type: </span>{plant.type}</ListItem>
-                    <ListItem><span key= {plant.sowSpace} style={bold}>Sow Space: </span>{plant.sowSpace}</ListItem>
-                    <ListItem><span key= {plant.sun} style={bold}>Sun: </span>{plant.sun}</ListItem>
-                    <ListItem><span key= {plant.zone} style={bold}>Grow Zone: </span>{plant.zone}</ListItem>
-                    <ListItem><span key= {plant.maturity} style={bold}>Maturity: </span>{plant.maturity} days</ListItem>
+                    <ListItem><span key= {plant.type} style={bold}>Item: </span>{plant.type}</ListItem>
+                    <ListItem><span key= {plant.sowSpace} style={bold}>Owner: </span>{plant.sowSpace}</ListItem>
+                    <ListItem><span key= {plant.sun} style={bold}>Location: </span>{plant.sun}</ListItem>
+                    <ListItem><span key= {plant.zone} style={bold}>Type: </span>{plant.zone}</ListItem>
+                    <ListItem><span key= {plant.maturity} style={bold}>Quantity: </span>{plant.maturity} days</ListItem>
+
                   </UnorderedList>
                 </Box>
               </Stack>
               <div className="buttonplanner">
-                <Button style={button} onClick={(e) => addGardenPlant(e, plant._id)} colorScheme='orange'>Add to Garden</Button>
+                <Button style={button} onClick={(e) => addGardenPlant(e, plant._id)} colorScheme='orange'>Checkout!</Button>
                 <Button style={{ backgroundColor: '#85ae5a' }} onClick= {(e) => addFavPlant(e, plant._id)}><i className="bi bi-star search"></i></Button>
               </div>
             </CardBody>

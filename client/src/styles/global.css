@@ -1,4 +1,3 @@
-
 html, body {
   min-height: 100%;
   margin: 0;
@@ -66,15 +65,15 @@ p {
 }
 
 .header .navbar-dark {
-  background-color: #85ae5a !important;
+  background-color: #F8D589 !important;
 }
 
 .header .navbar-dark .navbar-nav .nav-link {
-  background-color: #85ae5a !important;
+  background-color: #F8D589 !important;
 }
 
 .header .navbar-dark .navbar-brand {
-  background-color: #85ae5a !important;
+  background-color: #F8D589!important;
 }
 
 .bi.bi-search::before {
@@ -822,12 +821,12 @@ p {
   position: relative;
   bottom: 0%;
   width: 100%;
-  background-color: #85ae5a !important;
+  background-color: #06496b !important;
 }
 
 .container-fluid {
   padding: 0;
-  background-color: "#F2EFE0" !important;
+  background-color: "#06496b" !important;
 }
 
 .quote-container p {
@@ -885,7 +884,7 @@ p {
 }
 
 .footer .footer-content {
-  background-color: #85ae5a !important;
+  background-color: #06496b !important;
   flex-grow: 1;
 }
 

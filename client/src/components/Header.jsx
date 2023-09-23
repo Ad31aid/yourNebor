@@ -48,14 +48,8 @@ const Header = ({setSearch}) => {
         <Container fluid>
           {/* Logo and Site Name */}
           <Navbar.Brand className="me-auto" href="/">
-            <img
-              src="/favicon.png"
-              alt="Logo"
-              width="60"
-              height="60"
-              className="d-inline-block align-top"
-            />
-            <span className="logo-text">MinneGrowta</span>
+
+            <span className="logo-text">YourNabor</span>
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -117,10 +111,10 @@ const Header = ({setSearch}) => {
                   <i className="bi bi-star"></i>
                   </Nav.Link>
                   {currentPath !== "/florum" && (
-                    <Nav.Link href="/florum" className="navlink3">Florum</Nav.Link>
+                    <Nav.Link href="/florum" className="navlink3">Notice Board</Nav.Link>
                   )}
                   {currentPath !== "/planner" && (
-                    <Nav.Link href="/planner" className="navlink4" style={{ whiteSpace: "nowrap" }}>My Garden</Nav.Link>
+                    <Nav.Link href="/planner" className="navlink4" style={{ whiteSpace: "nowrap" }}>My Community</Nav.Link>
                   )}
                   {currentPath !== "/dashboard" && (
                     <Nav.Link href="/dashboard" className="navlink5">Dashboard</Nav.Link>
