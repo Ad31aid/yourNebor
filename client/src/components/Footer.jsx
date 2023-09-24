@@ -55,54 +55,55 @@ const ContactModal = ({ isOpen, onClose, contactContent }) => {
 
 const quotes = [
   {
-    text: "Flowers are restful to look at.  They have neither emotions nor conflicts.",
+    text: "Acts of kindness are restful to witness. They transcend personal emotions and conflicts.",
     author: "Sigmund Freud",
   },
   {
-    text: "To plant a garden is to believe in tomorrow.",
+    text: "To engage in a community is to believe in its future.",
     author: "Audrey Hepburn",
   },
   {
-    text: "There are no gardening mistakes, only experiments.",
+    text: "There are no community mistakes, only learning experiences.",
     author: "Janet Kilburn Phillips",
   },
   {
-    text: "There is a garden in every childhood, and enchanged place where colors are brighter, the air softer, and the morning more fragrant than ever again.",
+    text: "There is a sense of community in every childhood, an enchanted place where connections are deeper, spirits higher, and the future more hopeful.",
     author: "Elizabeth Lawrence",
   },
   {
-    text: "Gardening is full of mistakes, almost all of them pleasant and some of them actually instructive.",
+    text: "Community work is full of challenges, almost all of them heartwarming and many of them enlightening.",
     author: "Henry Mitchell",
   },
   {
-    text: "In every gardener there is a child who believes in The Seed Fairy.",
+    text: "In every philanthropist, there's a heart that believes in the Power of Good.",
     author: "Robert Brault",
   },
   {
-    text: "The garden suggests there might be a place where we can meet nature halfway.",
-    author: " Michael Pollan",
+    text: "Community work suggests there might be a place where we can meet humanity halfway.",
+    author: "Michael Pollan",
   },
   {
-    text: "A weed is a plant that has mastered every survival skill except for learning how to grow in rows.",
+    text: "A setback is but a challenge that hasn't found its place in the grand scheme of community.",
     author: "Doug Larson",
   },
   {
-    text: "A vegetable garden in the beginning looks so promising and then after all little by little it grows nothing but vegetables, nothing, nothing but vegetables.",
+    text: "A community in its infancy shows immense potential, and then, with time, it grows into a mosaic of diverse and enriching experiences.",
     author: "Gertrude Stein",
   },
   {
-    text: "Despite the gardener's best intentions, Nature will improvise.",
+    text: "Despite one's best intentions, the community will evolve in its own unique way.",
     author: "Michael P. Garofalo",
   },
   {
-    text: 'Gardens are not made by singing "oh, how beautiful" and sitting in the shade.',
+    text: 'Communities are not built by simply saying "oh, how wonderful" and watching from afar.',
     author: "Rudyard Kipling",
   },
   {
-    text: "Life's a Garden, Dig it!",
+    text: "Life's a community, be a part of it!",
     author: "Joe Dirt",
   }
 ];
+
 
 const Footer = () => {
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);

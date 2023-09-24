@@ -2,18 +2,18 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 // import Card from "./DashboardCards";
 import { HStack, VStack } from "@chakra-ui/react";
-import Fav from "../images/cute-happy-smiling-girl-hug-pot-with-plant-vector-30417575.jpg"
-import Forum from "../images/group-chat-bubbles-or-forum-discussion-icon-vector-23623518.jpg"
-import Garden from "../images/download.png"
+import Fav from "../images/checkout.jpg"
+import Forum from "../images/Community-board.jpg"
+import Garden from "../images/cute-happy-smiling-girl-hug-pot-with-plant-vector-30417575.jpg"
 import { CardBody, Text, Card, Button} from "@chakra-ui/react";
 import "../styles/global.css";
 
 const CardContainer = () => {
   const cards = [
 
-    { img: Fav, title: "My Favorites", description: "I love these plants!", buttonColor: "blue" },
-    { img: Garden, title: "My Garden", description: "Plants in my garden / My gardening journal", buttonColor: "green" },
-    { img: Forum, title: "The Florum", description: "Have a question or just want to share a spectacular picture of your garden?  Post it in the florum!", buttonColor: "orange" },
+    { img: Fav, title: "My items", description: "Checked-out items and renting items", buttonColor: "blue" },
+    { img: Garden, title: "My Community", description: "People in my community", buttonColor: "green" },
+    { img: Forum, title: "Notice Board", description: "Announcements and discussions", buttonColor: "orange" },
   ];
 
   const [isSmallScreen, setIsSmallScreen] = useState(false);
