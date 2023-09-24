@@ -507,7 +507,7 @@
             "maturity": 1
           },
           {
-            "name": "Acoustic Guitar",
+            "name": "Acoustic Guitar", 
             "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Acoustic_Guitar_2.jpg",
             "type": "Musical Instrument",
             "sowSpace": "Johnny Cash",

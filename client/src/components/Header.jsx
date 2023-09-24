@@ -72,7 +72,7 @@ const Header = ({setSearch}) => {
                 <div className="search-bar" style={{ display: "flex", alignItems: "center" }}>
                   <input
                     type="text"
-                    placeholder="Search for a plant..."
+                    placeholder="Search for an item..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                     style={{ 
