@@ -1,6 +1,10 @@
 {
   "name": "gardenplanner",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.17.1",
+    "npm": "9.6.7"
+  },
   "proxy": "http://localhost:6500",
   "description": "Group Project 3",
   "main": "server/server.js",
