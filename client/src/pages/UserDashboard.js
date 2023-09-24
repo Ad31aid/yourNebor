@@ -14,13 +14,13 @@ const App = () => {
 
   return (
     <div className="dash-container">
-      <h1>Welcome to Your Dashboard, {username}</h1>
+      <h1>User Dashboard, {username}</h1>
       <CardContainer className="cardcont"/>
       <Card className="timeline-content" direction={{ base: 'column', sm: 'row' }} overflow='hidden' variant='outline'>
         <Stack>
           <CardBody className="timeline-container" style={margin}>
               <div>
-                <h2>Your Timeline</h2>
+                <h2>Item Timeline</h2>
                 <div className="dashtimeline">
                 <TimelineContainer></TimelineContainer>
                 </div>

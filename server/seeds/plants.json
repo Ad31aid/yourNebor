@@ -350,7 +350,7 @@
             "zone": "3-12",
             "annual": true,
             "maturity": 25
-        },
+        },  
         {
             "name": "parsnip",
             "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Parsnip.jpg",
@@ -438,5 +438,83 @@
             "zone": "3-9",
             "annual": true,
             "maturity": 60
-        }
+        },
+        
+        {
+            "name": "Leaf Blower",
+            "image": "https://mobileimages.lowes.com/marketingimages/c32c1650-b083-4764-90d7-6fd2a793c45a/ht-leaf-blower-maintenance-hero.jpg?im=Scale",
+            "type": "Tool",
+            "sowSpace": "Bob Dylan",
+            "climbing": false,
+            "sun": "4132 Lincoln Swing",
+            "zone": "Moderate wear and tear",
+            "annual": false,
+            "maturity": 1
+        },
+        {
+            "name": "Lawn Mower",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/71/Electric_lawn_mower_IMG_5496.JPG",
+            "type": "Tool",
+            "sowSpace": "Alice Johnson",
+            "climbing": false,
+            "sun": "1234 Elm Street",
+            "zone": "Light use",
+            "annual": false,
+            "maturity": 1
+          },
+          {
+            "name": "Bicycle",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d7/JugendstilBikes_Miyata760SR06.jpg",
+            "type": "Sporting Equipment",
+            "sowSpace": "Charlie Brown",
+            "climbing": false,
+            "sun": "5678 Oak Avenue",
+            "zone": "Excellent condition",
+            "annual": false,
+            "maturity": 1
+          },
+          {
+            "name": "Roller Skates",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Crazy_Creek_inlines.jpg",
+            "type": "Sporting Equipment",
+            "sowSpace": "Marty McFly",
+            "climbing": false,
+            "sun": "1885 Hill Valley",
+            "zone": "Light use",
+            "annual": false,
+            "maturity": 1
+          },
+          {
+            "name": "Kitchen Knife",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Yoshihiro_NSW_46_Layers_Vegetable_Chef_knife_-_best_nakiri_knife.png",
+            "type": "Kitchen Tool",
+            "sowSpace": "Jamie Oliver",
+            "climbing": false,
+            "sun": "7745 Foodie Lane",
+            "zone": "Excellent condition",
+            "annual": false,
+            "maturity": 1
+          },
+          {
+            "name": "Dumbbell",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Kurzhanteln_2_x_15_kg_2v2.jpg",
+            "type": "Fitness Equipment",
+            "sowSpace": "Arnold Schwarzenegger",
+            "climbing": false,
+            "sun": "1984 Muscle Beach",
+            "zone": "Light use",
+            "annual": false,
+            "maturity": 1
+          },
+          {
+            "name": "Acoustic Guitar",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Acoustic_Guitar_2.jpg",
+            "type": "Musical Instrument",
+            "sowSpace": "Johnny Cash",
+            "climbing": false,
+            "sun": "1955 Ring of Fire Rd",
+            "zone": "Used",
+            "annual": false,
+            "maturity": 1
+          }
     ]

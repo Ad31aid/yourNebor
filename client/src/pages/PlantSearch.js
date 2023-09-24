@@ -88,10 +88,10 @@ export default function PlantSearch ({search}) {
                 </Box>
                 <Box>
                   <UnorderedList>
-                    <ListItem><span key= {plant.type} style={bold}>Item: </span>{plant.type}</ListItem>
+                    <ListItem><span key= {plant.type} style={bold}>Type: </span>{plant.type}</ListItem>
                     <ListItem><span key= {plant.sowSpace} style={bold}>Owner: </span>{plant.sowSpace}</ListItem>
                     <ListItem><span key= {plant.sun} style={bold}>Location: </span>{plant.sun}</ListItem>
-                    <ListItem><span key= {plant.zone} style={bold}>Type: </span>{plant.zone}</ListItem>
+                    <ListItem><span key= {plant.zone} style={bold}>Useage: </span>{plant.zone}</ListItem>
                     <ListItem><span key= {plant.maturity} style={bold}>Quantity: </span>{plant.maturity} days</ListItem>
 
                   </UnorderedList>

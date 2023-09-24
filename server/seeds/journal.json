@@ -1,14 +1,52 @@
 [
   {
-    "title": "This is my title",
+    "title": "Aria Li",
     "image": "www.image.com",
-    "text": "this is my text"
-  
+    "text": "Hello! I’m Aria. I enjoy painting and would love to exchange art supplies and ideas with fellow creatives!"
   },
   {
-    "title": "This is my new title",
+    "title": "Michael Santos",
     "image": "www.image.com",
-    "text": "this is my new text"
-  
+    "text": "Hey, I'm Michael! I have a passion for cooking and am keen on sharing kitchen gadgets and recipes."
+  },
+  {
+    "title": "Sophia Kim",
+    "image": "www.image.com",
+    "text": "Hi, I’m Sophia, a fitness enthusiast looking to exchange workout equipment and fitness advice."
+  },
+  {
+    "title": "Chris Jordan",
+    "image": "www.image.com",
+    "text": "Chris here! I'm a movie buff interested in exchanging DVDs and film paraphernalia with other cinephiles."
+  },
+  {
+    "title": "Emma Clark",
+    "image": "www.image.com",
+    "text": "Hi! I'm Emma, an avid reader looking to swap books and discuss literature with others."
+  },
+  {
+    "title": "Oscar Williams",
+    "image": "www.image.com",
+    "text": "Hey everyone, I’m Oscar. I love gardening and am excited to share plants and gardening tips."
+  },
+  {
+    "title": "Grace Thompson",
+    "image": "www.image.com",
+    "text": "Hello! I'm Grace, a music lover looking to trade musical instruments and sheet music."
+  },
+  {
+    "title": "Elijah Mitchell",
+    "image": "www.image.com",
+    "text": "Elijah here! I’m into photography and would love to share camera gear and photo ideas."
+  },
+  {
+    "title": "Isabella Perez",
+    "image": "www.image.com",
+    "text": "I’m Isabella, a fashion enthusiast excited to swap clothes and styling tips with others."
+  },
+  {
+    "title": "Oliver Johnson",
+    "image": "www.image.com",
+    "text": "Hey, I’m Oliver. I'm a gamer interested in exchanging video games and gaming accessories."
   }
 ]

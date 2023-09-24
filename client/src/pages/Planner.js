@@ -108,8 +108,8 @@ let handleInputChange = (e) => {
           </div>
         </GridItem>
         <GridItem className="journal-grid" colSpan={1}>
-          <h2 style={{ whiteSpace: 'nowrap' }}>Add Journal Post</h2>
-            <Button colorScheme='green' onClick={onJournalOpen}>New Post</Button>
+          <h2 style={{ whiteSpace: 'nowrap' }}>My Connections</h2>
+            <Button colorScheme='green' onClick={onJournalOpen}>New Friends</Button>
             <div>
               {journalPosts?.map((data1) => (
                 <div className="myjournals" key={data1?._id}>
@@ -131,15 +131,15 @@ let handleInputChange = (e) => {
             <Modal isOpen={isJournalOpen} onClose={onJournalClose}>
             <ModalOverlay />
             <ModalContent>
-              <ModalHeader>New Journal Post</ModalHeader>
+              <ModalHeader>Add Friend</ModalHeader>
               <ModalCloseButton />
               <ModalBody>
                 <FormControl>
-                  <FormLabel>Journal Post Title:</FormLabel>
+                  <FormLabel>Name:</FormLabel>
                   <Input type='text' value={form.title} key={form.title} onChange={handleInputChange} name="journalTitle"/>
                 </FormControl>
                 <FormControl>
-                <Text mb='8px'>Journal Post Content:</Text>
+                <Text mb='8px'>About me:</Text>
                 <Textarea
                   value={form.content}
                   onChange={handleInputChange}
@@ -162,7 +162,7 @@ let handleInputChange = (e) => {
 
         </GridItem>
         <GridItem colSpan={4} className="alljournal-grid">
-          <h2>My Journal Entries</h2>
+          <h2>People in my Community</h2>
           <Accordion allowToggle>
           {results.map((data, index) => (
             <AccordionItem key={data._id}>
