@@ -43,7 +43,7 @@ const LoginPage = () => {
           templateColumns="repeat(auto-fill, minmax(200px, 1fr))"
         >
           <AbsoluteCenter axis="horizontal" paddingTop="400px">
-            <Card background="#85AE5A" size="lg" px={20} width="450px">
+            <Card background="#b1ddf9" size="lg" px={20} width="450px">
               <CardHeader>
                 <Heading size="lg" color="#09302F">
                   {" "}

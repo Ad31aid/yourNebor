@@ -79,16 +79,16 @@ export default function MyFavorites(props) {
           templateColumns="repeat(5, 1fr)"
           gap={4}
         >
-          <GridItem colSpan={1} bg="#85AE5A" m="4" textAlign="center">
+          <GridItem colSpan={1} bg="#b1ddf9" m="4" textAlign="center">
             <Card bg="#85AE5A" size="lg">
               <CardHeader>
                 <Heading size="md">
-                  Click below to search for more plants
+                  Click below to search for more items
                 </Heading>
               </CardHeader>
               <GridItem colSpan={1} bg="#85AE5A" m="4" textAlign="center">
                 <br />
-                Return to Plant Search
+                Return to Search
                 <br />
                 <Button onClick={handleClick} colorScheme="orange">
                   Return
@@ -98,8 +98,8 @@ export default function MyFavorites(props) {
           </GridItem>
 
           <GridItem colSpan={4}>
-            <h2>My Favorite Plants</h2>
-            <h6>Click on a plant name to see more details</h6>
+            <h2>My Borrowed Items</h2>
+            <h6>Click on an item to see more details</h6>
             <Accordion allowToggle>
               {results &&
                 results.map((data) => (

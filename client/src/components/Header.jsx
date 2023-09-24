@@ -48,7 +48,12 @@ const Header = ({setSearch}) => {
         <Container fluid>
           {/* Logo and Site Name */}
           <Navbar.Brand className="me-auto" href="/">
-
+          <img
+            src="/Homepage_Logo.png"
+            alt="logo"
+            width="100"
+            height="100"
+            className="d-inline-block align-top"></img>
             <span className="logo-text">YourNabor</span>
           </Navbar.Brand>
 
