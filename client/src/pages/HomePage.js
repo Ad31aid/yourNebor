@@ -1,5 +1,5 @@
 import '../styles/global.css'
-import Background from '../images/background-img.jpg'
+import Background from '../images/background-img.png'
 import { Button } from "@chakra-ui/react";
 
 const HomePage = () => {
